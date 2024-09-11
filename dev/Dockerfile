@@ -1,4 +1,4 @@
-FROM squidfunk/mkdocs-material:9.5.34
+FROM docker.io/squidfunk/mkdocs-material:9.5.34
 
 RUN apk add --no-cache --update nodejs npm
 
@@ -8,5 +8,5 @@ COPY ./requirements.txt /site/
 
 # Dependencies
 RUN npm ci && pip install -r requirements.txt
-ENTRYPOINT /usr/local/bin/mkdocs serve --dirtyreload -a 0.0.0.0:8000
+ENTRYPOINT ["/usr/local/bin/mkdocs",  "serve",  "--dirtyreload",  "-a", "0.0.0.0:8000"]
 
