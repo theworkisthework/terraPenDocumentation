@@ -97,5 +97,6 @@ nav:
   - Connect to a personal network: connectToPersonalNetwork.md
   - Re-starting terraPen: restartTerraPen.md 
   - Lightburn Profiles and settings: LightburnProfilesAndSettings.md
+  - Connect to terraPen via USB-C: ConnectTethered.md
   - YAML Configuration Settings: YAMLConfigurationSettings.md
   - FAQ (Frequently Asked Questions): FAQ.md
