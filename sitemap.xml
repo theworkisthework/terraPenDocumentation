@@ -2,62 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://localhost:8000/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/1stPlot/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/1sttimeuse/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
+    </url>
+    <url>
+         <loc>http://localhost:8000/ConnectTethered/</loc>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/FAQ/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/LightburnProfilesAndSettings/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/WhatsInTheBox/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/YAMLConfigurationSettings/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/connectToPersonalNetwork/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/movingThePenCarriage/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/plotting/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/restartTerraPen/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/startingAplot/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/terraPenWebUI/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/uploadingFiles/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
     <url>
          <loc>http://localhost:8000/blog/</loc>
-         <lastmod>2024-09-11</lastmod>
+         <lastmod>2024-10-09</lastmod>
     </url>
 </urlset>
