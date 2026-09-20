@@ -1,27 +1,27 @@
-# Connect to terraPen via USB-C
+# Connect via USB-C
 
-It is possible to control the terraPen using software such as LightBurn over USB-C. This page will outline the steps required.
+The terraPen can be driven over USB-C instead of Wi-Fi, using
+[terraForge](terraForge.md).
 
-- Plug in terraPen to a wall outlet
-- Plug in USB-C to desktop / laptop
-- Check Device Manager for available ports
+## Steps
 
-![Screenshot](img/DeviceManagerCOMPort.png)
+1. Plug the terraPen into a wall outlet as normal.
+2. Connect a USB-C cable between the terraPen and your computer.
+3. In terraForge, open **machine settings** and set **Connection** to **Usb** rather
+   than Wifi.
+4. Connect.
 
-- Connect to port in Lightburn
+![Connection setting in the terraForge machine configuration](img/terraforge-machine-config.png)
 
-![Screenshot](img/LightburnConnectedTethered.png)
+That is all that is required. Jogging, homing, pen control, file upload and plotting
+all work over the cable.
 
-- Check serial port for connect and status
+!!! tip "Useful when Wi-Fi is awkward"
+    A cabled connection sidesteps network problems entirely, which is worth having in
+    a busy studio or a space with poor Wi-Fi.
 
-![Screenshot](img/LightburnConsoleLocked.png)
+## Other software
 
-- If in alarm state, type $X to remove alarm
-
-![Screenshot](img/AlarmOff$X.png)
-
-- The move commands move the axis incorrectly, and the penup/down does not work correctly
-
-> [!Note]
-> The move commands move the axis incorrectly, and the penup/down does not work correctly
-> Additional details to connect FLuidNC (the firmware terraPen utilises) with Lightburn [here](<http://wiki.fluidnc.com/en/support/senders/lightburn#:~:text=%C2%B6%20Using%20LightBurn%20(v1.4.0+)%20%C2%B6%20FluidNC%20Config.%20First%20release%20June,>).
+Lightburn can also drive the terraPen — see
+[Lightburn profiles and settings](LightburnProfilesAndSettings.md) — but terraForge is
+the supported route and the one to use unless you have a specific reason not to.

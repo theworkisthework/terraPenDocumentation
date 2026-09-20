@@ -11,31 +11,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: quay.io/fedora/fedora:latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - name: Install NPM
-        run: |
-          dnf install -y nodejs npm
+      # Built from the same Dockerfile the Publish workflow and local
+      # development use, so validation cannot drift from what gets published.
+      # It also carries WeasyPrint's native libraries, which the PDF export
+      # plugin needs and a minimal container does not have.
+      - name: Build the mkdocs image
+        run: docker build -t mkdocs-build -f ./dev/Dockerfile .
 
-      - name: Install PIP
+      - name: Spell check and build
         run: |
-          dnf install -y python3-pip
-
-      - name: Install Git
-        run: |
-          dnf install -y git
-
-      - name: Install required dependencies
-        run: |
-          pip3 install -r requirements.txt
-          npm ci
-
-      - name: Run the build
-        run: |
-          export PATH=$PATH:node_modules/.bin/
-          ./build.sh
+          docker run --rm \
+            -v "${{ github.workspace }}:/site" \
+            --entrypoint sh \
+            mkdocs-build -c "cd /site && npm ci --silent && ./node_modules/.bin/cspell 'docs/**/*.md' && mkdocs build --strict"

@@ -4,22 +4,60 @@ on:
   push:
     branches: [ main ]
 
-jobs:
-  publish:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
+# One deployment at a time. A run in progress is allowed to finish rather than
+# being cancelled part way through publishing.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
     runs-on: ubuntu-latest
 
     env:
-      NODE_VERSION: 12.x
-      TITLE: OKD.io
+      # Canonical URL for the built site. mkdocs.yml reads this via !ENV, so a
+      # fork only has to change it here, not in the config.
+      SITE_URL: https://theworkisthework.github.io/terraPenDocumentation/
 
     steps:
-      - uses: actions/checkout@v2
-      - name: generate site
-        uses: ./.github/actions/
-        
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/checkout@v4
+
+      - name: Build the mkdocs image
+        run: docker build -t mkdocs-build -f ./dev/Dockerfile .
+
+      - name: Build the site
+        run: |
+          docker run --rm \
+            -e SITE_URL \
+            -v "${{ github.workspace }}:/site" \
+            --entrypoint mkdocs \
+            mkdocs-build build --strict
+
+      - name: Make the output readable by the runner
+        run: sudo chown -R "$(id -u):$(id -g)" public
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the built site
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
