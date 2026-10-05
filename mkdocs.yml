@@ -122,6 +122,9 @@ nav:
   - Looking after it:
       - Maintenance: maintenance.md
       - Transport and storage: transport.md
+  - Build your own:
+      - Building your own: selfBuild.md
+      - Sourcing parts: sourcingParts.md
   - Help:
       - Troubleshooting: troubleshooting.md
       - Getting support: support.md

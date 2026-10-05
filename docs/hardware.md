@@ -4,6 +4,9 @@ The terraPen is open source. The mechanical design, the controller board and the
 firmware configuration are all published, so you can repair, modify or rebuild the
 machine yourself.
 
+To build a complete machine from scratch, start with [Building your own](selfBuild.md)
+and [Sourcing parts](sourcingParts.md).
+
 ## Mechanical
 
 | Repository | What's in it |
