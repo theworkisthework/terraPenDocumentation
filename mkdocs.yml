@@ -113,6 +113,8 @@ nav:
       - Uploading files: uploadingFiles.md
       - Lightburn profiles and settings: LightburnProfilesAndSettings.md
       - Cutting vinyl: vinyl.md
+  - Accessories:
+      - terraDial: terraDial.md
   - Older machines:
       - Solenoid pen lift: solenoid.md
   - Connecting:

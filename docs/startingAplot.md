@@ -21,9 +21,10 @@ not need your computer at all. You can close terraForge, shut the laptop, and wa
 away — the plot carries on to the end.
 
 !!! danger "Do not reconnect to check on a running plot"
-    Reconnecting to a plot already in progress — from either terraForge or the
-    [web UI](terraPenWebUI.md) — can overload FluidNC's websocket handling, stall the
-    controller and **end the plot part-drawn**. You lose the sheet.
+    Reconnecting to a plot already in progress — from terraForge, the
+    [web UI](terraPenWebUI.md) or [terraDial](terraDial.md) — can overload FluidNC's
+    websocket handling, stall the controller and **end the plot part-drawn**. You
+    lose the sheet.
 
     This is a limitation in the firmware, not something you have done wrong.
 

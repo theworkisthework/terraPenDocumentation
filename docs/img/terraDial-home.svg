@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+<circle cx="120" cy="120" r="119" fill="#0a0a12"/>
+<circle cx="120" cy="120" r="116" fill="#1a1a2e"/>
+<clipPath id="face"><circle cx="120" cy="120" r="116"/></clipPath>
+<g clip-path="url(#face)">
+<circle cx="120" cy="204" r="17" fill="#0f3460" opacity="0.392157"/>
+<g transform="translate(113 197) scale(0.583333)" fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"/><circle cx="12" cy="13" r="3"/></g>
+<circle cx="165.56" cy="190.571" r="19.5547" fill="#363760" opacity="0.503074"/>
+<g transform="translate(158.56 183.571) scale(0.583333)" fill="none" stroke="#aeb3bd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14v4"/><path d="M14.172 2a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 20 7.828V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><path d="M8 14h8"/><rect x="8" y="10" width="8" height="8" rx="2"/></g>
+<circle cx="74.4402" cy="190.571" r="19.5547" fill="#d12b3f"/>
+<g transform="translate(67.4402 183.571) scale(0.583333)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 9-6 6"/><path d="M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z"/><path d="m9 9 6 6"/></g>
+<circle cx="200.248" cy="144.824" r="22.6631" fill="#673a60" opacity="0.638034"/>
+<g transform="translate(193.248 137.824) scale(0.583333)" fill="none" stroke="#c4c8cf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/></g>
+<circle cx="39.7517" cy="144.824" r="22.6631" fill="#673a60" opacity="0.638034"/>
+<g transform="translate(32.7517 137.824) scale(0.583333)" fill="none" stroke="#c4c8cf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></g>
+<circle cx="190.571" cy="74.4402" r="26.5547" fill="#a33f60" opacity="0.806995"/>
+<g transform="translate(178.571 62.4402) scale(1)" fill="none" stroke="#dfe1e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m15 19-3 3-3-3"/><path d="m19 9 3 3-3 3"/><path d="M2 12h20"/><path d="m5 9-3 3 3 3"/><path d="m9 5 3-3 3 3"/></g>
+<circle cx="49.4287" cy="74.4402" r="26.5547" fill="#a33f60" opacity="0.806995"/>
+<g transform="translate(37.4287 62.4402) scale(1)" fill="none" stroke="#dfe1e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"/><circle cx="12" cy="12" r="3"/></g>
+<circle cx="120" cy="36" r="31" fill="#e94560" opacity="1"/>
+<g transform="translate(104 20) scale(1.33333)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></g>
+<circle cx="120" cy="120" r="48" fill="#0f3460" stroke="#5c7a9e" stroke-width="1"/>
+<text x="120" y="112" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e0e0e0" text-anchor="middle" dominant-baseline="central">Home XY</text>
+<text x="120" y="132" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#9ca3af" text-anchor="middle" dominant-baseline="central">IDLE</text>
+</g></svg>
