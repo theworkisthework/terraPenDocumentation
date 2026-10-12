@@ -44,7 +44,7 @@ terraDial runs on either of two off-the-shelf boards:
 | Board | Notes |
 |---|---|
 | **Elecrow CrowPanel 1.28" Rotary** | The original. 240 × 240 screen, with an LED ring that shows the machine's state across the room. |
-| **Waveshare ESP32-S3 Knob 1.8"** | Larger 360 × 360 screen, haptic clicks and a battery. The knob does not click, so tap the screen instead. |
+| **Waveshare ESP32-S3 Knob 1.8"** | Larger 360 × 360 screen, haptic clicks and a battery. The knob does not click, so tap the screen instead. The installer does not offer this board yet — for now its firmware has to be built from the [source](https://github.com/theworkisthework/terraDial#building). |
 
 You also need a USB **data** cable (not a charge-only one) to install the firmware.
 Files for a 3D-printed case and frame mount are in the
