@@ -71,6 +71,11 @@ That gives you a pen that draws at Z0 and lifts 5 mm clear.
     pulling the pen down as it crosses any dips. A nib set exactly level will skip on
     the low spots.
 
+    If the pen is leaving light patches or not marking some areas at all, lower it a
+    little further in the holder and check the sheet. Some paper has oils, coatings, or
+    manufacturing variations that make parts of the sheet take ink differently, even
+    when the machine is behaving normally.
+
     On a [solenoid machine](solenoid.md) the principle is the same, but it is
     **gravity** doing the work rather than a spring — the pen simply drops onto the
     page. Set it slightly low for the same reason.

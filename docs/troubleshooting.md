@@ -169,9 +169,14 @@ FluidNC's development and it helps to know it is still happening.
 
 ## The paper is buckling as it plots
 
-Normal on a page taking a lot of ink. **Do not re-tape it mid-plot** — that moves the
-paper relative to the work already drawn and misaligns everything after it. The pen
-will usually push the buckle back down as it passes.
+Normal on a page taking a lot of ink, especially in humid conditions. Paper type and
+stock weight vary a lot, and different papers react differently — a lot of that is
+outside terraPen's scope. If a particular sheet keeps buckling, consider a heavier
+weight paper, which is often less prone to lifting and catching the pen.
+
+**Do not re-tape it mid-plot** — that moves the paper relative to the work already
+drawn and misaligns everything after it. The pen will usually push the buckle back
+down as it passes.
 
 Next time, give the job more Z lift — see
 [if the paper buckles mid-plot](plotting.md#if-the-paper-buckles-mid-plot).
@@ -183,6 +188,15 @@ needs one, and check that your G-code was exported with an absolute origin.
 
 If the pen no longer lines up with the grid printed on the bed, see
 [the bed grid and zero](bedGrid.md).
+
+## The pen is not marking the paper, or only marks in some areas
+
+First, lower the pen slightly in the holder and confirm the nib is not worn or clogged.
+Then check the stock itself — some paper has oils, coatings, or manufacturing
+variations that make certain areas take ink differently from others. This is outside
+terraPen's control and can vary even between sheets of the same brand or weight.
+
+If it keeps happening, try a different sheet or a heavier weight paper.
 
 ## The pen drags between shapes, or starts drawing before it lands
 

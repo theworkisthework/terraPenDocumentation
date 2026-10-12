@@ -33,8 +33,12 @@ The bed has a grid printed on it, and the machine's zero is the grid's origin â€
 
 ## If the paper buckles mid-plot
 
-A page taking on a lot of ink will cockle and lift. It is tempting to reach in and tape
-it back down while the plot runs.
+A page taking on a lot of ink will cockle and lift. Humidity can make this worse, and
+paper varies a lot from brand to brand â€” different papers react differently, and a lot
+of that is outside terraPen's control. If you are testing a new stock, a heavier weight
+is often less prone to buckling and is worth trying.
+
+It is tempting to reach in and tape it back down while the plot runs.
 
 !!! warning "Do not re-tape a plot in progress"
     Re-fixing the paper part way through **shifts it relative to the drawing already on
