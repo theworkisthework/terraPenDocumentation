@@ -21,6 +21,9 @@ representation of the bed, so anything hanging over the edge is visible before y
 send it. Make sure your machine profile is set to the real bed size of 594 × 420 mm,
 or the picture it shows you will be wrong.
 
+The bed has a grid printed on it, and the machine's zero is the grid's origin — see
+[the bed grid and zero](bedGrid.md).
+
 ## Mounting your paper
 
 - Place the paper square to the machine, with its edges parallel to the X axis.

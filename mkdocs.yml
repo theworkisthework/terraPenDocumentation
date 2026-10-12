@@ -107,6 +107,7 @@ nav:
       - Your first plot: 1stPlot.md
       - Moving the pen carriage: movingThePenCarriage.md
       - Plotting area and paper: plotting.md
+      - The bed grid and zero: bedGrid.md
       - Starting a plot: startingAplot.md
   - Making artwork:
       - terraForge: terraForge.md

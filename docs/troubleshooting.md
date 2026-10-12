@@ -181,6 +181,9 @@ Next time, give the job more Z lift — see
 The origin was not where you thought. Home the machine, set your zero again if the job
 needs one, and check that your G-code was exported with an absolute origin.
 
+If the pen no longer lines up with the grid printed on the bed, see
+[the bed grid and zero](bedGrid.md).
+
 ## The pen drags between shapes, or starts drawing before it lands
 
 On a machine with a [solenoid pen lift](solenoid.md), this usually means the **pen
