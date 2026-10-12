@@ -21,15 +21,37 @@ representation of the bed, so anything hanging over the edge is visible before y
 send it. Make sure your machine profile is set to the real bed size of 594 × 420 mm,
 or the picture it shows you will be wrong.
 
-The bed has a grid printed on it, and the machine's zero is the grid's origin — see
-[the bed grid and zero](bedGrid.md).
+On terraPens shipped from autumn 2026, the bed has a grid printed on it, and the
+machine's zero is the grid's origin — see [the bed grid and zero](bedGrid.md).
 
 ## Mounting your paper
 
 - Place the paper square to the machine, with its edges parallel to the X axis.
-- Hold it down with the supplied corner tabs, or with tape.
+- Hold it down with the supplied corner tabs, with tape, or — on a magnetic bed —
+  with magnets.
 - Get it as flat as possible. Any lift or ripple shows up in the drawing, and badly
   warped paper can catch the pen.
+
+### Magnets on a magnetic bed
+
+terraPens shipped from autumn 2026 have a metal baseboard, so paper can be held down
+with magnets. Magnets are quick to place and move, but they stand proud of the paper,
+which means the pen can hit them.
+
+!!! warning "A magnet the pen catches moves the paper"
+    The carriage does not stop for a magnet. If the pen or the toolhead catches one,
+    it pushes the magnet off the sheet — and with it gone, the paper is free to shift
+    under the rest of the plot. Everything drawn after that lands out of place.
+
+To keep the magnets out of the way:
+
+- **Leave a margin in your artwork.** Keep the drawing clear of the edges of the
+  sheet, wide enough for the magnets to sit outside it.
+- **Put the magnets in that margin**, clear of anywhere the pen goes — including the
+  pen-up moves between strokes, where the nib passes only a few millimetres above
+  the paper.
+- **Check before you plot.** Jog the carriage around your artwork's bounding box with
+  the pen up, as in the tip below, and watch that it clears every magnet.
 
 ## If the paper buckles mid-plot
 
@@ -56,7 +78,7 @@ media and dense hatching are the usual culprits.
 !!! tip "Check your extents before you draw"
     Before plotting on good paper, jog the carriage — with the pen up — to each corner
     of your artwork's bounding box. This confirms the drawing fits on the stock and
-    that nothing fouls the corner tabs.
+    that nothing fouls the corner tabs or magnets.
 
     [terraForge](terraForge.md) shows your artwork positioned on a representation of
     the bed before you send it, which makes this much easier.

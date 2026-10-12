@@ -1,10 +1,15 @@
 <!--- cSpell:ignore WPos MPos -->
 # The bed grid and zero
 
-The terraPen has a grid printed on its bed. The machine is set up so that the grid's
-origin is the machine's own zero: home it, and the pen moves to the grid's origin,
-ready to plot. [terraForge](terraForge.md) uses the same origin, so a drawing placed
-on terraForge's bed lands in the same place on the printed grid.
+terraPens shipped from autumn 2026 have a grid printed on the bed. The machine is set
+up so that the grid's origin is the machine's own zero: home it, and the pen moves to
+the grid's origin, ready to plot. [terraForge](terraForge.md) uses the same origin, so
+a drawing placed on terraForge's bed lands in the same place on the printed grid.
+
+!!! note "Shipped before autumn 2026?"
+    Earlier machines have no grid on the bed. Homing still sets the machine zero, and
+    [two kinds of zero](#two-kinds-of-zero) applies to every terraPen — only the
+    checks against the grid need a grid.
 
 This page explains how that works, how to check it, and what to do when the pen
 no longer lines up with the grid.

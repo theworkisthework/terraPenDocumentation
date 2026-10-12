@@ -15,7 +15,9 @@ Before you start, [fit the toolhead](assembly.md), then
 ## 1. Fit the paper
 
 Take the calibration plot off the bed, turn it over, and put it back under the corner
-tabs blank side up.
+tabs blank side up. On a magnetic bed (terraPens shipped from autumn 2026) you can
+hold it with magnets instead — keep them near the corners, clear of the drawing; see
+[magnets on a magnetic bed](plotting.md#magnets-on-a-magnetic-bed).
 
 Line the paper up square to the machine, with its edges parallel to the X axis, and
 get it as flat as you can. A ripple in the paper becomes a wobble in the drawing.

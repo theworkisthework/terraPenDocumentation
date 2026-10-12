@@ -153,6 +153,13 @@ set it slightly low for the same reason. See
 
 Also check the pen is tight in the holder and the paper is flat and well secured.
 
+## The paper moved part way through a plot
+
+If you hold paper down with magnets, the usual cause is the pen catching one and
+pushing it off the sheet, which leaves the paper free to slide. Keep a margin in the
+artwork and keep the magnets in it, clear of the pen's path — see
+[magnets on a magnetic bed](plotting.md#magnets-on-a-magnetic-bed).
+
 ## The plot stopped when I reconnected to check on it
 
 Reconnecting to a plot already in progress can overload FluidNC's websocket handling
@@ -186,8 +193,8 @@ Next time, give the job more Z lift — see
 The origin was not where you thought. Home the machine, set your zero again if the job
 needs one, and check that your G-code was exported with an absolute origin.
 
-If the pen no longer lines up with the grid printed on the bed, see
-[the bed grid and zero](bedGrid.md).
+If the pen no longer lines up with the grid printed on the bed (terraPens shipped from
+autumn 2026), see [the bed grid and zero](bedGrid.md).
 
 ## The pen is not marking the paper, or only marks in some areas
 
