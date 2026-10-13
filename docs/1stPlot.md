@@ -74,7 +74,7 @@ That gives you a pen that draws at Z0 and lifts 5 mm clear.
     the low spots.
 
     If the pen is leaving light patches or not marking some areas at all, lower it a
-    little further in the holder and check the sheet. Some paper has oils, coatings, or
+    little further in the holder and check the sheet. Some paper may have oils, coatings, or
     manufacturing variations that make parts of the sheet take ink differently, even
     when the machine is behaving normally.
 
