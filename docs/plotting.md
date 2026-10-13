@@ -29,8 +29,8 @@ machine's zero is the grid's origin — see [the bed grid and zero](bedGrid.md).
 - Place the paper square to the machine, with its edges parallel to the X axis.
 - Hold it down with the supplied corner tabs, with tape, or — on a magnetic bed —
   with magnets.
-- Get it as flat as possible. Any lift or ripple shows up in the drawing, and badly
-  warped paper can catch the pen.
+- Get it as flat as possible. Any lift or ripple shows up in the drawing, and 
+warped paper can catch the pen.
 
 ### Magnets on a magnetic bed
 
