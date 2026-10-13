@@ -9,7 +9,7 @@ a drawing placed on terraForge's bed lands in the same place on the printed grid
 !!! note "Shipped before autumn 2026?"
     Earlier machines have no grid on the bed. Homing still sets the machine zero, and
     [two kinds of zero](#two-kinds-of-zero) applies to every terraPen — only the
-    checks against the grid need a grid.
+    checks against the grid apply to machines with a printed grid.
 
 This page explains how that works, how to check it, and what to do when the pen
 no longer lines up with the grid.
