@@ -55,7 +55,7 @@ To keep the magnets out of the way:
 
 ## If the paper buckles mid-plot
 
-A page taking on a lot of ink will cockle and lift. Humidity can make this worse, and
+A page taking on a lot of ink will cockle (wrinkle) and lift. Humidity can make this worse, and
 paper varies a lot from brand to brand — different papers react differently, and a lot
 of that is outside terraPen's control. If you are testing a new stock, a heavier weight
 is often less prone to buckling and is worth trying.
