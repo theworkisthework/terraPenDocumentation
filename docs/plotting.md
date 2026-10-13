@@ -41,7 +41,7 @@ which means the pen can hit them.
 !!! warning "A magnet the pen catches can move the paper"
     The carriage does not stop for a magnet. If the pen or the toolhead catches one,
     it pushes the magnet off the sheet — and with it gone, the paper is free to shift
-    under the rest of the plot. Everything drawn after that lands out of place.
+    under the rest of the plot. Everything drawn after that can be out of place.
 
 To keep the magnets out of the way:
 
