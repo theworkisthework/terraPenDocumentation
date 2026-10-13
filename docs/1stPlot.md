@@ -15,7 +15,9 @@ Before you start, [fit the toolhead](assembly.md), then
 ## 1. Fit the paper
 
 Take the calibration plot off the bed, turn it over, and put it back under the corner
-tabs blank side up.
+tabs blank side up. On a magnetic bed (terraPens shipped from autumn 2026) you can
+hold it with magnets instead — keep them near the corners, clear of the drawing; see
+[magnets on a magnetic bed](plotting.md#magnets-on-a-magnetic-bed).
 
 Line the paper up square to the machine, with its edges parallel to the X axis, and
 get it as flat as you can. A ripple in the paper becomes a wobble in the drawing.
@@ -70,6 +72,11 @@ That gives you a pen that draws at Z0 and lifts 5 mm clear.
     want the nib fractionally **below** the paper surface, so the spring can keep
     pulling the pen down as it crosses any dips. A nib set exactly level will skip on
     the low spots.
+
+    If the pen is leaving light patches or not marking some areas at all, lower it a
+    little further in the holder and check the sheet. Some paper may have oils, coatings, or
+    manufacturing variations that make parts of the sheet take ink differently, even
+    when the machine is behaving normally.
 
     On a [solenoid machine](solenoid.md) the principle is the same, but it is
     **gravity** doing the work rather than a spring — the pen simply drops onto the

@@ -153,6 +153,13 @@ set it slightly low for the same reason. See
 
 Also check the pen is tight in the holder and the paper is flat and well secured.
 
+## The paper moved part way through a plot
+
+If you hold paper down with magnets, the usual cause is the pen catching one and
+pushing it off the sheet, which leaves the paper free to slide. Keep a margin in the
+artwork and keep the magnets in it, clear of the pen's path — see
+[magnets on a magnetic bed](plotting.md#magnets-on-a-magnetic-bed).
+
 ## The plot stopped when I reconnected to check on it
 
 Reconnecting to a plot already in progress can overload FluidNC's websocket handling
@@ -169,9 +176,14 @@ FluidNC's development and it helps to know it is still happening.
 
 ## The paper is buckling as it plots
 
-Normal on a page taking a lot of ink. **Do not re-tape it mid-plot** — that moves the
-paper relative to the work already drawn and misaligns everything after it. The pen
-will usually push the buckle back down as it passes.
+Normal on a page taking a lot of ink, especially in humid conditions. Paper type and
+stock weight vary a lot, and different papers react differently — a lot of that is
+outside terraPen's scope. If a particular sheet keeps buckling, consider a heavier
+weight paper, which is often less prone to lifting and catching the pen.
+
+**Do not re-tape it mid-plot** — that moves the paper relative to the work already
+drawn and misaligns everything after it. The pen will usually push the buckle back
+down as it passes.
 
 Next time, give the job more Z lift — see
 [if the paper buckles mid-plot](plotting.md#if-the-paper-buckles-mid-plot).
@@ -180,6 +192,18 @@ Next time, give the job more Z lift — see
 
 The origin was not where you thought. Home the machine, set your zero again if the job
 needs one, and check that your G-code was exported with an absolute origin.
+
+If the pen no longer lines up with the grid printed on the bed (terraPens shipped from
+autumn 2026), see [the bed grid and zero](bedGrid.md).
+
+## The pen is not marking the paper, or only marks in some areas
+
+First, lower the pen slightly in the holder and confirm the nib is not worn or clogged.
+Then check the stock itself — some paper has oils, coatings, or manufacturing
+variations that make certain areas take ink differently from others. This is outside
+terraPen's control and can vary even between sheets of the same brand or weight.
+
+If it keeps happening, try a different sheet or a heavier weight paper.
 
 ## The pen drags between shapes, or starts drawing before it lands
 
