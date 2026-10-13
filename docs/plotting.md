@@ -35,7 +35,7 @@ warped paper can catch the pen.
 ### Magnets on a magnetic bed
 
 terraPens shipped from autumn 2026 have a metal baseboard, so paper can be held down
-with magnets. Magnets are quick to place and move, but they stand proud of the paper,
+with magnets. Magnets are quick to place and move, but they stand proud,
 which means the pen can hit them.
 
 !!! warning "A magnet the pen catches can move the paper"
